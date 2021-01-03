@@ -9,7 +9,7 @@ So this is an incomplete tool, but its main purpose of creation was proof of con
 a bunch of info from a database and then responds the prediction" type of project. I indend to make the code more modular and iron out the hacky parts,
 and hopefully extend its functionality.
 
-More likely than not, the Weather API that this thing was hooked up to you isn't working. I got a cheap subscription, although if this project were seriously
+More likely than not, the Weather API that this thing was hooked up to isn't working. I got a cheap subscription, although if this project were seriously
 revamped, I'd get a reliable Weather API subscription to the service this project was using.
 
 React frontent with Golang backend. Golang backend chosen so the big data set can be analysed and have data gathered in parallel, to get it done quicker.
