@@ -1,0 +1,5 @@
+# the backend server executable
+backend
+
+# the sqlite database is too big
+project.sqlite
