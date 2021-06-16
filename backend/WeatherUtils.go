@@ -131,7 +131,7 @@ func Current(county string) []float64 {
 }
 
 func RandomWeatherInfo() []float64 { //assumed randomWeather has been called, so rand has been seeded
-	rand.Seed(time.Now().UnixNano())
+	// rand.Seed(time.Now().UnixNano())
 	wi := make([]float64, 6)
 	wi[temperature] = rand.Float64() * 99
 	wi[pressure] = rand.Float64() + 990
@@ -144,8 +144,8 @@ func RandomWeatherInfo() []float64 { //assumed randomWeather has been called, so
 }
 
 func RandomHistoricalWeather(start, end time.Time) [][]float64 {
-	//	rand.Seed(time.Now().UnixNano())
-	//	// first to independently random WeatherInfos and then see if you can make them a bit more realistically random
+	rand.Seed(time.Now().UnixNano())
+	
 	if start.IsZero() {
 		return nil
 	}
