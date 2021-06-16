@@ -11,6 +11,6 @@ This project was made with one other teammate for a college class project, where
 
 ## Limitations
 - Short time window. This was a class project, so we didn't have time for in depth research about how to make predictive software.
-- Limited data access. While we pull real weather forecast data, we could've paid for a more complex climate forecast, and for location based historical data.
+- Limited data access. While we pull real weather forecast data, we could've paid for a more complex climate forecast, and for location-based historical weather data.
 
 Because of the limitations, the predictions are not accurate. This project, however showcases our ability to build an application with GoLang and React, both in-demand technologies, and had this been a real-world project with access to real-world resources, it would have been an overall success.
