@@ -9,9 +9,8 @@ This project was made with one other teammate for a college class project, where
 - React.js Frontend 
 - SQLite Database
 
-## Disclaimer
-Although this web app "predicts" forest fires, this should not be used as any reliable source of predictions. Since it was a relatively short-term class project where the assignment was to make something cool with GoLang, my partner and I didn't have an in depth background on what exactly the type of data one would need to make accurate predictions, and some of the data that we knew would've been useful was behind a pay wall.
+## Limitations
+- Short time window. This was a class project, so we didn't have time for in depth research about how to make predictive software.
+- Limited data access. While we pull real weather forecast data, we could've paid for a more complex climate forecast, and for location based historical data.
 
-For example, we used a simple weather forecast API, but could've paid for a climate forecast with more in depth data. We also could've paid for access to historical weather data (to associate the forecast with weather at the time and place of a fire incident), but randomly generated the historical data instead.
-
-The reason I pinned this project anyways is to experience with GoLang and React.js. I'm happy about how the project went, outside of the issues in data acquisition, and it's proof of concept building a project with contemporary and in demand technologies. It was a genuine learning experience overall, both in figuring out what we could successfully implement, and in learning about real-world limitations that come in to the data collection phase of a project.
+Because of the limitations, the predictions are not accurate. This project, however showcases our ability to build an application with GoLang and React, both in-demand technologies, and had this been a real-world project with access to real-world resources, it would have been an overall success.
