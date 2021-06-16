@@ -1,16 +1,17 @@
 # ForestFireOracle
-"Predicts" forest fires based off of data that only sort of works because my partner and I didn't have resources access to realistic data sets. But a proof-enough of concept :)
 
-So this isn't an entirely accurate tool. Partly because data required for accurate forest fire prediction isn't accessible to two college students who
-aren't gonna spend money on that, since this is originally just a class project. Also a little hacky and not guaranteed to work because little details
-got tripped up and we just had to duct tape everything together in order to be able to present it.
+Proof-of-concept web app that predicts forest forest fires. Enter a location, will return predictions for the next 5 days telling whether or not a fire is likely to happen on that day, based on the weather forecast.
 
-So this is an incomplete tool, but its main purpose of creation was proof of concept for general "have a web app that takes a request and gathers
-a bunch of info from a database and then responds the prediction" type of project. I indend to make the code more modular and iron out the hacky parts,
-and hopefully extend its functionality.
+This project was made with one other teammate for a college class project, where we had to implement an idea with GoLang and concurrent programming. The concurrent programming comes in when we make predictions by pulling data from a record of [1.88 million recorded forest fires](https://www.kaggle.com/rtatman/188-million-us-wildfires). Searching for and pulling relevant data in parallel with Go-routines made predictions faster.
 
-More likely than not, the Weather API that this thing was hooked up to isn't working. I got a cheap subscription, although if this project were seriously
-revamped, I'd get a reliable Weather API subscription to the service this project was using.
+## Technologies Used
+- GoLang Backend
+- React.js Frontend 
+- SQLite Database
 
-React frontent with Golang backend. Golang backend chosen so the big data set can be analysed and have data gathered in parallel, to get it done quicker.
-Concurrent programming better for reading large sets of data.
+## Disclaimer
+Although this web app "predicts" forest fires, this should not be used as any reliable source of predictions. Since it was a relatively short-term class project, and the assignment was to implement something cool with GoLang, my partner and I didn't have an in depth background on what exactly the type of data one would need to make accurate predictions, and some of the data that would've been useful was behind a pay wall.
+
+For example, we used a simple weather forecast API, but could've paid for a climate forecast with more in depth data. We also could've paid for access to historical weather data (to associate the forecast with weather at the time and place of a fire incident), but randomly generated the historical data instead.
+
+The reason I pinned this project anyways is to experience with GoLang and React.js. I'm happy about how the project went, outside of the issues in data acquisition, and it's proof of concept building a project with contemporary and in demand technologies.
