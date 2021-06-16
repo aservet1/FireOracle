@@ -10,8 +10,8 @@ This project was made with one other teammate for a college class project, where
 - SQLite Database
 
 ## Disclaimer
-Although this web app "predicts" forest fires, this should not be used as any reliable source of predictions. Since it was a relatively short-term class project, and the assignment was to implement something cool with GoLang, my partner and I didn't have an in depth background on what exactly the type of data one would need to make accurate predictions, and some of the data that would've been useful was behind a pay wall.
+Although this web app "predicts" forest fires, this should not be used as any reliable source of predictions. Since it was a relatively short-term class project where the assignment was to make something cool with GoLang, my partner and I didn't have an in depth background on what exactly the type of data one would need to make accurate predictions, and some of the data that we knew would've been useful was behind a pay wall.
 
 For example, we used a simple weather forecast API, but could've paid for a climate forecast with more in depth data. We also could've paid for access to historical weather data (to associate the forecast with weather at the time and place of a fire incident), but randomly generated the historical data instead.
 
-The reason I pinned this project anyways is to experience with GoLang and React.js. I'm happy about how the project went, outside of the issues in data acquisition, and it's proof of concept building a project with contemporary and in demand technologies.
+The reason I pinned this project anyways is to experience with GoLang and React.js. I'm happy about how the project went, outside of the issues in data acquisition, and it's proof of concept building a project with contemporary and in demand technologies. It was a genuine learning experience overall, both in figuring out what we could successfully implement, and in learning about real-world limitations that come in to the data collection phase of a project.
