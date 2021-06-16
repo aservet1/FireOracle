@@ -4,6 +4,8 @@ Proof-of-concept web app that predicts forest forest fires. Enter a location, wi
 
 This project was made with one other teammate for a college class project, where we had to implement an idea with GoLang and concurrent programming. The concurrent programming comes in when we make predictions by pulling data from a record of [1.88 million recorded forest fires](https://www.kaggle.com/rtatman/188-million-us-wildfires). Searching for and pulling relevant data in parallel with Go-routines made predictions faster.
 
+![image](https://user-images.githubusercontent.com/54599694/122151091-e7eec580-ce2c-11eb-8891-9520e2a71fb1.png)
+
 ## Technologies Used
 - GoLang Backend
 - React.js Frontend 
