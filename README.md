@@ -1,4 +1,4 @@
-# ForestFireOracle
+# FireOracle
 
 Proof-of-concept web app that predicts forest forest fires. Enter a location, will return predictions for the next 5 days telling whether or not a fire is likely to happen on that day, based on the weather forecast.
 
